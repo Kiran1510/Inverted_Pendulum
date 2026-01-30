@@ -313,14 +313,6 @@ MPC uses the full nonlinear dynamics `f(x,u)` in its optimization, eliminating r
 
 This explains why LQR is preferred for ultra-fast control loops, while MPC is used when constraints and nonlinearity matter more than raw speed.
 
-## Educational Use
-
-This project is designed for:
-- Control theory courses (undergraduate/graduate level)
-- Robotics and mechatronics laboratory exercises
-- Understanding trade-offs between different control approaches
-- Benchmarking and comparing new control algorithms
-
 ### Suggested Experiments
 
 1. **Disturbance Rejection Test**
@@ -365,9 +357,8 @@ Inverted_Pendulum/
 └── LICENSE                        # MIT License
 ```
 
-## Contributing
+## Potential Improvements
 
-Contributions are welcome! Potential improvements:
 - Implement trajectory tracking (follow desired position profiles)
 - Add other controllers (H∞, sliding mode, adaptive control)
 - Include state estimation (Kalman filter for noisy measurements)
